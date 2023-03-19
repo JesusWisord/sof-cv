@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Soficorga</title>
+        <title>Sofía Cortés</title>
         <meta name="description" content="Sofia Cortes Garcia portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/iconoweb.png" />
@@ -17,6 +17,23 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
       </Head>
+      <header className={styles.header}>
+        <figure>
+          <img src="/iconoweb.png" />
+        </figure>
+        <ul>
+          <li>
+            <a href="https://google.com">
+              <img src="icons/behance.png"/>
+            </a>
+          </li>
+          <li>
+            <a href="https://google.com">
+              <img src="icons/linkedin.png"/>
+            </a>
+          </li>
+        </ul>
+      </header>
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
