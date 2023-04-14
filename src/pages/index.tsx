@@ -59,10 +59,10 @@ export default function Home() {
           <p>
             Get in touch. → <a href='mailto:sofia.corts@gmail.com' className={styles.email}>sofia.corts@gmail.com</a>
           </p>
-          <figure class={styles.sof_logo}>
+          <figure className={styles.sof_logo}>
             <img src="/sofialogoprov.png" />
           </figure>
-          <p class={styles.bottom_text}>
+          <p className={styles.bottom_text}>
             Símple, Intimo, Humano
           </p>
         </div>
