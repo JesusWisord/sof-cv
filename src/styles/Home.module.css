@@ -34,6 +34,10 @@
 .header ul li{
   margin-right: 40px
 }
+.header ul li a{
+  text-decoration: none;
+  color: black;
+}
 .header figure, .header img, .header ul li{
   height: 100%;
 }
@@ -107,4 +111,43 @@
   bottom: 6px;
   right: 80px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 800px){
+  .main{
+    display: grid;
+    box-sizing: content-box;
+    grid-template-columns: 1fr;
+    margin: 50px 20px;
+    align-items: center;
+    justify-items: center;
+  }
+  .main > .email{
+    position: fixed;
+    top: 50%;
+    right: -80px;
+  }
+  .name{
+    position: fixed;
+    top: 50%;
+    left: -80px;
+  }
+  .dot, .page_number{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .main{
+    margin: 50px 0px;
+  }
+  .description{
+    font-size: 22px;
+  }
+  .bottom_text{
+    font-size: 22px;
+  }
+  .image{
+    width: 70%;
+  }
 }
