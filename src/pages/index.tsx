@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/iconoweb.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
       </Head>
       <header className={styles.header}>
         <figure>
@@ -32,9 +32,15 @@ export default function Home() {
               <img src="icons/linkedin.png"/>
             </a>
           </li>
+          <li>
+            <a>
+              RESUME
+            </a>
+          </li>
         </ul>
       </header>
       <main className={styles.main}>
+        <p className={styles.name}>Sofía Cortés</p>
         <div className={styles.description}>
           <p>
             Hello, I’m Sofía — an independent designer and art director based in Mexico city.
@@ -53,12 +59,21 @@ export default function Home() {
           <p>
             Get in touch. → <a href='mailto:sofia.corts@gmail.com' className={styles.email}>sofia.corts@gmail.com</a>
           </p>
+          <figure class={styles.sof_logo}>
+            <img src="/sofialogoprov.png" />
+          </figure>
+          <p class={styles.bottom_text}>
+            Símple, Intimo, Humano
+          </p>
         </div>
         <div className={styles.image}>
           <figure>
             <img src="/fotoweb0.png" />
           </figure>
         </div>
+        <span className={styles.dot}></span>
+        <span className={styles.page_number}>01</span>
+        <a href="mailto:sofia.corts@gmail.com" className={styles.email}>sofia.corts@gmail.com</a>
       </main>
     </>
   )

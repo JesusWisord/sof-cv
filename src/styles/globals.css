@@ -45,13 +45,13 @@ body{
   padding: 0;
   height: 100vh;
   background:
-   linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) calc((0% + 32px) ) 0px / 1px 100%,
-   linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) calc((50%) ) 0px / 1px 100%,
-   linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) calc((50% + 24px) ) 0px / 1px 100%,
-   linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) calc((50% + 51px) ) 0px / 1px 100%,
-   linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) calc((100% - 80px) ) 0px / 1px 100%,
-   linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) 2px calc((0% + 103px) ) / 100% 1px,
-   linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) 2px calc((100% - 62px) ) / 100% 1px;
+   linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) calc((0% + 48px) ) 0px / 1px 100%,
+   linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) calc((50% - 12px) ) 0px / 1px 100%,
+   linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) calc((50% + 14px) ) 0px / 1px 100%,
+   linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) calc((50% + 38px) ) 0px / 1px 100%,
+   linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) calc((100% - 49px) ) 0px / 1px 100%,
+   linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) 2px calc((0% + 45px) ) / 100% 1px,
+   linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) 2px calc((100% - 38px) ) / 100% 1px;
    background-repeat: no-repeat; 
   background-color: white;
 }
