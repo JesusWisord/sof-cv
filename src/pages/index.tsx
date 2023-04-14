@@ -33,7 +33,7 @@ export default function Home() {
             </a>
           </li>
           <li>
-            <a>
+            <a href="https://drive.google.com/file/d/1Dd_dq7g7a2s8uEpnhibuBY27P8wNgxXc/view">
               RESUME
             </a>
           </li>
