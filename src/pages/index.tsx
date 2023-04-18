@@ -2,10 +2,30 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import { useEffect } from 'react';
+
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  useEffect(() => {
+    // define a custom handler function
+    // for the contextmenu event
+    const handleContextMenu = (e) => {
+      // prevent the right-click menu from appearing
+      e.preventDefault()
+    }
+
+    // attach the event listener to 
+    // the document object
+    document.addEventListener("contextmenu", handleContextMenu)
+
+    // clean up the event listener when 
+    // the component unmounts
+    return () => {
+      document.removeEventListener("contextmenu", handleContextMenu)
+    }
+  }, [])
   return (
     <>
       <Head>
@@ -23,17 +43,22 @@ export default function Home() {
         </figure>
         <ul>
           <li>
-            <a href="https://google.com">
+            <a href="https://www.behance.net/sofiacorts" target="_blank">
               <img src="icons/behance.png"/>
             </a>
           </li>
           <li>
-            <a href="https://google.com">
+            <a href="http://www.linkedin.com/in/sof%C3%ADa-cort%C3%A9s" target="_blank">
               <img src="icons/linkedin.png"/>
             </a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1Dd_dq7g7a2s8uEpnhibuBY27P8wNgxXc/view">
+            <a href="https://linktr.ee/soficorga" target="_blank">
+              <img src="icons/linktree.svg"/>
+            </a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/file/d/1Dd_dq7g7a2s8uEpnhibuBY27P8wNgxXc/view" target="_blank">
               RESUME
             </a>
           </li>

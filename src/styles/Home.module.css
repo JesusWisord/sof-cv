@@ -127,6 +127,9 @@
     top: 50%;
     right: -80px;
   }
+  .description{
+    font-size: 22px;
+  }
   .name{
     position: fixed;
     top: 50%;
@@ -142,7 +145,7 @@
     margin: 50px 0px;
   }
   .description{
-    font-size: 22px;
+    font-size: 20px;
   }
   .bottom_text{
     font-size: 22px;
