@@ -53,7 +53,7 @@ body{
    linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) 2px calc((0% + 45px) ) / 100% 1px,
    linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) 2px calc((100% - 38px) ) / 100% 1px;
    background-repeat: no-repeat; 
-  background-color: white;
+  background-color: #FDFAF7;
 }
 
 @media screen and (max-width: 800px){
