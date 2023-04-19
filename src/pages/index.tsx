@@ -43,22 +43,22 @@ export default function Home() {
         </figure>
         <ul>
           <li>
-            <a href="https://www.behance.net/sofiacorts" target="_blank">
+            <a href="https://www.behance.net/sofiacorts" target="_blank" rel="noreferrer">
               <img src="icons/behance.png"/>
             </a>
           </li>
           <li>
-            <a href="http://www.linkedin.com/in/sof%C3%ADa-cort%C3%A9s" target="_blank">
+            <a href="http://www.linkedin.com/in/sof%C3%ADa-cort%C3%A9s" target="_blank" rel="noreferrer">
               <img src="icons/linkedin.png"/>
             </a>
           </li>
           <li>
-            <a href="https://linktr.ee/soficorga" target="_blank">
+            <a href="https://linktr.ee/soficorga" target="_blank" rel="noreferrer">
               <img src="icons/linktree.svg"/>
             </a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1Dd_dq7g7a2s8uEpnhibuBY27P8wNgxXc/view" target="_blank">
+            <a href="https://drive.google.com/file/d/1Dd_dq7g7a2s8uEpnhibuBY27P8wNgxXc/view" target="_blank" rel="noreferrer">
               RESUME
             </a>
           </li>
