@@ -11,7 +11,7 @@ export default function Home() {
   useEffect(() => {
     // define a custom handler function
     // for the contextmenu event
-    const handleContextMenu = (e) => {
+    const handleContextMenu = (e: Event) => {
       // prevent the right-click menu from appearing
       e.preventDefault()
     }
