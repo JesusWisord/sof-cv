@@ -10,7 +10,7 @@
 .description{
   font-size: 24px;
   padding: 0 80px;
-  margin-top: -52px;
+  margin-top: -400px;
 }
 
 .email{
@@ -93,6 +93,9 @@
   font-size: 28px;
   text-align: center;
   margin: 0;
+  position: absolute;
+  bottom: 50px;
+  left: 120px;
 }
 
 .dot{

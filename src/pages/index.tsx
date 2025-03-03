@@ -32,11 +32,6 @@ export default function Home() {
         <title>Sofía Cortés</title>
         <meta name="description" content="Sofia Cortes Garcia portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/iconoweb.png" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" href="https://use.typekit.net/lyj6hpr.css" />
       </Head>
       <header className={styles.header}>
         <figure>
@@ -59,7 +54,7 @@ export default function Home() {
             </a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1Dd_dq7g7a2s8uEpnhibuBY27P8wNgxXc/view" target="_blank" rel="noreferrer">
+            <a href="https://drive.google.com/file/d/1ncoAOvoyOxWHiJx7QINaP6hPD_kqsEwj/view" target="_blank" rel="noreferrer">
               RESUME
             </a>
           </li>
@@ -69,15 +64,10 @@ export default function Home() {
         <p className={styles.name}>Sofía Cortés</p>
         <div className={styles.description}>
           <p>
-            Hello, I’m Sofía — an independent designer and art director based in Mexico city.
+            Hello, I’m Sofía — multidisciplinary graphic designer and creative thinker based in Mexico city.
           </p>
           <p>
-            Focused on creating meaningful experiences through visual communication and bringing
-            new concepts to life.
-          </p>
-          <p>
-            With the aim of helping, through strategy and creative intuition,
-            I conceptualize adistinctive and impactful visual language.
+          Focused on creating meaningful experiences through visual communication and bringing new concepts to life.
           </p>
           <p>
             Interested in working together? 
@@ -85,9 +75,6 @@ export default function Home() {
           <p>
             Get in touch. → <a href='mailto:sofia.corts@gmail.com' className={styles.email}>sofia.corts@gmail.com</a>
           </p>
-          <figure className={styles.sof_logo}>
-            <img src="/sofialogoprov.png" />
-          </figure>
           <p className={styles.bottom_text}>
             Símple, Intimo, Humano
           </p>
