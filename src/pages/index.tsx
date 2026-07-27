@@ -54,7 +54,7 @@ export default function Home() {
             </a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1ncoAOvoyOxWHiJx7QINaP6hPD_kqsEwj/view" target="_blank" rel="noreferrer">
+            <a href="https://drive.google.com/file/d/1a5U7S6qfVyapdDqbnBw3HjEAFL6yPKyI/view" target="_blank" rel="noreferrer">
               RESUME
             </a>
           </li>
